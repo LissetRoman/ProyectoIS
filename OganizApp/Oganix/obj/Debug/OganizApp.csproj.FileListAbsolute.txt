@@ -1,0 +1,56 @@
+c:\users\jesús\source\repos\Oganix\Oganix\bin\Debug\Oganix.exe.config
+c:\users\jesús\source\repos\Oganix\Oganix\bin\Debug\Oganix.exe
+c:\users\jesús\source\repos\Oganix\Oganix\bin\Debug\Oganix.pdb
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\OganizApp.csprojResolveAssemblyReference.cache
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\Oganix.OrganizApp.resources
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\Oganix.Properties.Resources.resources
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\OganizApp.csproj.GenerateResource.cache
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\OganizApp.csproj.CoreCompileInputs.cache
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\Oganix.exe
+c:\users\jesús\source\repos\Oganix\Oganix\obj\Debug\Oganix.pdb
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\OganizApp.csprojResolveAssemblyReference.cache
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.OrganizApp.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.Form2.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.Form3.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.Form4.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.Form5.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\OganizApp.csproj.GenerateResource.cache
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.exe
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.pdb
+C:\Users\Jesús\source\repos\OganizApp\Oganix\bin\Debug\Oganix.exe.config
+C:\Users\Jesús\source\repos\OganizApp\Oganix\bin\Debug\Oganix.exe
+C:\Users\Jesús\source\repos\OganizApp\Oganix\bin\Debug\Oganix.pdb
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\Oganix.Properties.Resources.resources
+C:\Users\Jesús\source\repos\OganizApp\Oganix\obj\Debug\OganizApp.csproj.CoreCompileInputs.cache
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\bin\Debug\Oganix.exe.config
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.exe
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.pdb
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\bin\Debug\Oganix.exe
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\bin\Debug\Oganix.pdb
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\OganizApp.csprojResolveAssemblyReference.cache
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.OrganizApp.resources
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.Properties.Resources.resources
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\OganizApp.csproj.GenerateResource.Cache
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.f2Menu.resources
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.f3NuevaConf.resources
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.f4Ayuda.resources
+C:\Users\jomir\Documents\Visual Studio 2013\Projects\OganizApp\Oganix\obj\Debug\Oganix.f6Tiempo.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\Oganix.exe.config
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\Oganix.exe
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\Oganix.pdb
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\OganizApp.csprojResolveAssemblyReference.cache
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.OrganizApp.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.f2Menu.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.f3NuevaConf.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.f4Ayuda.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.f6Tiempo.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.Properties.Resources.resources
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\OganizApp.csproj.GenerateResource.cache
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\OganizApp.csproj.CoreCompileInputs.cache
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.exe
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\Oganix.pdb
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.dll
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\bin\Debug\GemBox.Spreadsheet.WinFormsUtilities.xml
+C:\Users\LissetRoman\Desktop\Organizapp\OganizApp\Oganix\obj\Debug\OganizApp.csproj.CopyComplete

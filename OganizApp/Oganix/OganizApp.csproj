@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3ED57E5A-11B1-48AE-BD90-6C5CC24505F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Oganix</RootNamespace>
+    <AssemblyName>Oganix</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GemBox.Spreadsheet, Version=43.0.35.1005, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\GemBox Software\GemBox.Spreadsheet 4.3\Bin\net35\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet.WinFormsUtilities, Version=43.0.35.1005, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\GemBox Software\GemBox.Spreadsheet 4.3\Bin\net35\GemBox.Spreadsheet.WinFormsUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f1Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f1Principal.Designer.cs">
+      <DependentUpon>f1Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f2Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f2Menu.Designer.cs">
+      <DependentUpon>f2Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f3NuevaConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f3NuevaConf.Designer.cs">
+      <DependentUpon>f3NuevaConf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f4Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f4Ayuda.Designer.cs">
+      <DependentUpon>f4Ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f6Tiempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f6Tiempo.Designer.cs">
+      <DependentUpon>f6Tiempo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="f1Principal.resx">
+      <DependentUpon>f1Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f2Menu.resx">
+      <DependentUpon>f2Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f3NuevaConf.resx">
+      <DependentUpon>f3NuevaConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f4Ayuda.resx">
+      <DependentUpon>f4Ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f6Tiempo.resx">
+      <DependentUpon>f6Tiempo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\flecha.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
