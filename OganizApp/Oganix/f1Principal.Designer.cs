@@ -113,6 +113,7 @@
             this.txtContra.PasswordChar = '*';
             this.txtContra.Size = new System.Drawing.Size(156, 38);
             this.txtContra.TabIndex = 4;
+            this.txtContra.Text = "123";
             // 
             // label3
             // 
@@ -131,6 +132,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(156, 38);
             this.txtUsuario.TabIndex = 2;
+            this.txtUsuario.Text = "Coordi";
             // 
             // label2
             // 

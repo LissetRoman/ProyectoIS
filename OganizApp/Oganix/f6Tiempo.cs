@@ -36,19 +36,44 @@ namespace Oganix
             switch (idImg)
             {
                 case "img1":
+                    label3.Text = "Establecer el tiempo para Img:" + idImg;
                     break;
                 case "img2":
+                    label3.Text = "Establecer el tiempo para Img:" + idImg;
+                    break;
+                case "img3":
+                    label3.Text = "Establecer el tiempo para Img:" + idImg;
+                    break;
+                case "img4":
+                    label3.Text = "Establecer el tiempo para Img:" + idImg;
+                    break;
+                default:
+                    MessageBox.Show("No seleccionó imagen");
                     break;
             }
 
             
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btn_regresar_Click(object sender, EventArgs e)
         {
+            //¿qué form lo llamó?
+            switch (idForm)
+            {
+                case "f3NuevaConf":
+                    MessageBox.Show("Regresando al form:" + idForm);
 
+                    //f3NuevaConf NuevaVentana = new f3NuevaConf();
+                    //NuevaVentana.Show();
+                    
+                    this.Hide();
+                    break;
+            }
         }
 
-        
+        private void btn_aceptar_Click(object sender, EventArgs e)
+        {
+            //aquí hay que ingresar el registro del tiempo para la imagen seleccionada
+        }
     }
 }

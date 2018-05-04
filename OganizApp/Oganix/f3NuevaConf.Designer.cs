@@ -31,6 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f3NuevaConf));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_fijarMsj = new System.Windows.Forms.Button();
+            this.btn_agregarArchivo = new System.Windows.Forms.Button();
+            this.btn_agregarTime4 = new System.Windows.Forms.Button();
+            this.btn_agregarTime2 = new System.Windows.Forms.Button();
+            this.btn_agregarTime1 = new System.Windows.Forms.Button();
+            this.btn_agregarTime3 = new System.Windows.Forms.Button();
+            this.btn_agregarMsj = new System.Windows.Forms.Button();
+            this.btn_eliminarImg4 = new System.Windows.Forms.Button();
+            this.btn_eliminarImg2 = new System.Windows.Forms.Button();
+            this.btn_eliminarImg3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_eliminarImg1 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -42,16 +52,7 @@
             this.btn_fijarDatos = new System.Windows.Forms.Button();
             this.btn_agregarImg = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btn_eliminarImg3 = new System.Windows.Forms.Button();
-            this.btn_eliminarImg2 = new System.Windows.Forms.Button();
-            this.btn_eliminarImg4 = new System.Windows.Forms.Button();
-            this.btn_agregarMsj = new System.Windows.Forms.Button();
-            this.btn_agregarTime3 = new System.Windows.Forms.Button();
-            this.btn_agregarTime1 = new System.Windows.Forms.Button();
-            this.btn_agregarTime2 = new System.Windows.Forms.Button();
-            this.btn_agregarTime4 = new System.Windows.Forms.Button();
-            this.btn_agregarArchivo = new System.Windows.Forms.Button();
-            this.btn_fijarMsj = new System.Windows.Forms.Button();
+            this.btn_proyectar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,6 +67,7 @@
             this.panel1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.btn_proyectar);
             this.panel1.Controls.Add(this.btn_fijarMsj);
             this.panel1.Controls.Add(this.btn_agregarArchivo);
             this.panel1.Controls.Add(this.btn_agregarTime4);
@@ -94,6 +96,194 @@
             this.panel1.Size = new System.Drawing.Size(803, 451);
             this.panel1.TabIndex = 5;
             // 
+            // btn_fijarMsj
+            // 
+            this.btn_fijarMsj.AutoSize = true;
+            this.btn_fijarMsj.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fijarMsj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_fijarMsj.BackgroundImage")));
+            this.btn_fijarMsj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fijarMsj.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_fijarMsj.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_fijarMsj.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_fijarMsj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fijarMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fijarMsj.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_fijarMsj.Location = new System.Drawing.Point(685, 313);
+            this.btn_fijarMsj.Name = "btn_fijarMsj";
+            this.btn_fijarMsj.Size = new System.Drawing.Size(40, 40);
+            this.btn_fijarMsj.TabIndex = 30;
+            this.btn_fijarMsj.UseVisualStyleBackColor = false;
+            this.btn_fijarMsj.Click += new System.EventHandler(this.btn_fijarMsj_Click);
+            // 
+            // btn_agregarArchivo
+            // 
+            this.btn_agregarArchivo.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarArchivo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarArchivo.BackgroundImage")));
+            this.btn_agregarArchivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_agregarArchivo.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_agregarArchivo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_agregarArchivo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_agregarArchivo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarArchivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarArchivo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarArchivo.Location = new System.Drawing.Point(731, 46);
+            this.btn_agregarArchivo.Name = "btn_agregarArchivo";
+            this.btn_agregarArchivo.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarArchivo.TabIndex = 29;
+            this.btn_agregarArchivo.UseVisualStyleBackColor = false;
+            this.btn_agregarArchivo.Click += new System.EventHandler(this.btn_agregarArchivo_Click);
+            // 
+            // btn_agregarTime4
+            // 
+            this.btn_agregarTime4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarTime4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime4.BackgroundImage")));
+            this.btn_agregarTime4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_agregarTime4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_agregarTime4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarTime4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarTime4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarTime4.Location = new System.Drawing.Point(223, 352);
+            this.btn_agregarTime4.Name = "btn_agregarTime4";
+            this.btn_agregarTime4.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarTime4.TabIndex = 28;
+            this.btn_agregarTime4.UseVisualStyleBackColor = false;
+            this.btn_agregarTime4.Visible = false;
+            this.btn_agregarTime4.Click += new System.EventHandler(this.btn_agregarTime4_Click);
+            // 
+            // btn_agregarTime2
+            // 
+            this.btn_agregarTime2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarTime2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime2.BackgroundImage")));
+            this.btn_agregarTime2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_agregarTime2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_agregarTime2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarTime2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarTime2.Location = new System.Drawing.Point(223, 260);
+            this.btn_agregarTime2.Name = "btn_agregarTime2";
+            this.btn_agregarTime2.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarTime2.TabIndex = 27;
+            this.btn_agregarTime2.UseVisualStyleBackColor = false;
+            this.btn_agregarTime2.Visible = false;
+            this.btn_agregarTime2.Click += new System.EventHandler(this.btn_agregarTime2_Click);
+            // 
+            // btn_agregarTime1
+            // 
+            this.btn_agregarTime1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarTime1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime1.BackgroundImage")));
+            this.btn_agregarTime1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_agregarTime1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_agregarTime1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarTime1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarTime1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarTime1.Location = new System.Drawing.Point(89, 260);
+            this.btn_agregarTime1.Name = "btn_agregarTime1";
+            this.btn_agregarTime1.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarTime1.TabIndex = 26;
+            this.btn_agregarTime1.UseVisualStyleBackColor = false;
+            this.btn_agregarTime1.Visible = false;
+            this.btn_agregarTime1.Click += new System.EventHandler(this.btn_agregarTime1_Click);
+            // 
+            // btn_agregarTime3
+            // 
+            this.btn_agregarTime3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarTime3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime3.BackgroundImage")));
+            this.btn_agregarTime3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_agregarTime3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_agregarTime3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_agregarTime3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarTime3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarTime3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarTime3.Location = new System.Drawing.Point(89, 352);
+            this.btn_agregarTime3.Name = "btn_agregarTime3";
+            this.btn_agregarTime3.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarTime3.TabIndex = 25;
+            this.btn_agregarTime3.UseVisualStyleBackColor = false;
+            this.btn_agregarTime3.Visible = false;
+            this.btn_agregarTime3.Click += new System.EventHandler(this.btn_agregarTime3_Click);
+            // 
+            // btn_agregarMsj
+            // 
+            this.btn_agregarMsj.AutoSize = true;
+            this.btn_agregarMsj.BackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarMsj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarMsj.BackgroundImage")));
+            this.btn_agregarMsj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_agregarMsj.FlatAppearance.BorderColor = System.Drawing.Color.Tomato;
+            this.btn_agregarMsj.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_agregarMsj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_agregarMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarMsj.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_agregarMsj.Location = new System.Drawing.Point(641, 313);
+            this.btn_agregarMsj.Name = "btn_agregarMsj";
+            this.btn_agregarMsj.Size = new System.Drawing.Size(40, 40);
+            this.btn_agregarMsj.TabIndex = 24;
+            this.btn_agregarMsj.UseVisualStyleBackColor = false;
+            this.btn_agregarMsj.Click += new System.EventHandler(this.btn_agregarMsj_Click);
+            // 
+            // btn_eliminarImg4
+            // 
+            this.btn_eliminarImg4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_eliminarImg4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg4.BackgroundImage")));
+            this.btn_eliminarImg4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_eliminarImg4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_eliminarImg4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminarImg4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_eliminarImg4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_eliminarImg4.Location = new System.Drawing.Point(223, 306);
+            this.btn_eliminarImg4.Name = "btn_eliminarImg4";
+            this.btn_eliminarImg4.Size = new System.Drawing.Size(40, 40);
+            this.btn_eliminarImg4.TabIndex = 23;
+            this.btn_eliminarImg4.UseVisualStyleBackColor = false;
+            this.btn_eliminarImg4.Visible = false;
+            this.btn_eliminarImg4.Click += new System.EventHandler(this.btn_eliminarImg4_Click);
+            // 
+            // btn_eliminarImg2
+            // 
+            this.btn_eliminarImg2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_eliminarImg2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg2.BackgroundImage")));
+            this.btn_eliminarImg2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_eliminarImg2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_eliminarImg2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminarImg2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_eliminarImg2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_eliminarImg2.Location = new System.Drawing.Point(223, 218);
+            this.btn_eliminarImg2.Name = "btn_eliminarImg2";
+            this.btn_eliminarImg2.Size = new System.Drawing.Size(40, 40);
+            this.btn_eliminarImg2.TabIndex = 22;
+            this.btn_eliminarImg2.UseVisualStyleBackColor = false;
+            this.btn_eliminarImg2.Visible = false;
+            this.btn_eliminarImg2.Click += new System.EventHandler(this.btn_eliminarImg2_Click);
+            // 
+            // btn_eliminarImg3
+            // 
+            this.btn_eliminarImg3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_eliminarImg3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg3.BackgroundImage")));
+            this.btn_eliminarImg3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_eliminarImg3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_eliminarImg3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btn_eliminarImg3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminarImg3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_eliminarImg3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_eliminarImg3.Location = new System.Drawing.Point(89, 306);
+            this.btn_eliminarImg3.Name = "btn_eliminarImg3";
+            this.btn_eliminarImg3.Size = new System.Drawing.Size(40, 40);
+            this.btn_eliminarImg3.TabIndex = 21;
+            this.btn_eliminarImg3.UseVisualStyleBackColor = false;
+            this.btn_eliminarImg3.Visible = false;
+            this.btn_eliminarImg3.Click += new System.EventHandler(this.btn_eliminarImg3_Click);
+            // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
@@ -102,6 +292,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(308, 91);
             this.textBox1.TabIndex = 20;
+            this.textBox1.Text = "Escriba un anuncio";
             // 
             // btn_eliminarImg1
             // 
@@ -229,192 +420,15 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // btn_eliminarImg3
+            // btn_proyectar
             // 
-            this.btn_eliminarImg3.BackColor = System.Drawing.Color.Transparent;
-            this.btn_eliminarImg3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg3.BackgroundImage")));
-            this.btn_eliminarImg3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_eliminarImg3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_eliminarImg3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_eliminarImg3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_eliminarImg3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_eliminarImg3.Location = new System.Drawing.Point(89, 306);
-            this.btn_eliminarImg3.Name = "btn_eliminarImg3";
-            this.btn_eliminarImg3.Size = new System.Drawing.Size(40, 40);
-            this.btn_eliminarImg3.TabIndex = 21;
-            this.btn_eliminarImg3.UseVisualStyleBackColor = false;
-            this.btn_eliminarImg3.Visible = false;
-            this.btn_eliminarImg3.Click += new System.EventHandler(this.btn_eliminarImg3_Click);
-            // 
-            // btn_eliminarImg2
-            // 
-            this.btn_eliminarImg2.BackColor = System.Drawing.Color.Transparent;
-            this.btn_eliminarImg2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg2.BackgroundImage")));
-            this.btn_eliminarImg2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_eliminarImg2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_eliminarImg2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_eliminarImg2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_eliminarImg2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_eliminarImg2.Location = new System.Drawing.Point(223, 218);
-            this.btn_eliminarImg2.Name = "btn_eliminarImg2";
-            this.btn_eliminarImg2.Size = new System.Drawing.Size(40, 40);
-            this.btn_eliminarImg2.TabIndex = 22;
-            this.btn_eliminarImg2.UseVisualStyleBackColor = false;
-            this.btn_eliminarImg2.Visible = false;
-            this.btn_eliminarImg2.Click += new System.EventHandler(this.btn_eliminarImg2_Click);
-            // 
-            // btn_eliminarImg4
-            // 
-            this.btn_eliminarImg4.BackColor = System.Drawing.Color.Transparent;
-            this.btn_eliminarImg4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminarImg4.BackgroundImage")));
-            this.btn_eliminarImg4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_eliminarImg4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_eliminarImg4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_eliminarImg4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_eliminarImg4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_eliminarImg4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_eliminarImg4.Location = new System.Drawing.Point(223, 306);
-            this.btn_eliminarImg4.Name = "btn_eliminarImg4";
-            this.btn_eliminarImg4.Size = new System.Drawing.Size(40, 40);
-            this.btn_eliminarImg4.TabIndex = 23;
-            this.btn_eliminarImg4.UseVisualStyleBackColor = false;
-            this.btn_eliminarImg4.Visible = false;
-            this.btn_eliminarImg4.Click += new System.EventHandler(this.btn_eliminarImg4_Click);
-            // 
-            // btn_agregarMsj
-            // 
-            this.btn_agregarMsj.AutoSize = true;
-            this.btn_agregarMsj.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarMsj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarMsj.BackgroundImage")));
-            this.btn_agregarMsj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_agregarMsj.FlatAppearance.BorderColor = System.Drawing.Color.Tomato;
-            this.btn_agregarMsj.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarMsj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarMsj.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarMsj.Location = new System.Drawing.Point(641, 313);
-            this.btn_agregarMsj.Name = "btn_agregarMsj";
-            this.btn_agregarMsj.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarMsj.TabIndex = 24;
-            this.btn_agregarMsj.UseVisualStyleBackColor = false;
-            this.btn_agregarMsj.Click += new System.EventHandler(this.btn_agregarMsj_Click);
-            // 
-            // btn_agregarTime3
-            // 
-            this.btn_agregarTime3.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarTime3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime3.BackgroundImage")));
-            this.btn_agregarTime3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_agregarTime3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_agregarTime3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarTime3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarTime3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarTime3.Location = new System.Drawing.Point(89, 352);
-            this.btn_agregarTime3.Name = "btn_agregarTime3";
-            this.btn_agregarTime3.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarTime3.TabIndex = 25;
-            this.btn_agregarTime3.UseVisualStyleBackColor = false;
-            this.btn_agregarTime3.Visible = false;
-            this.btn_agregarTime3.Click += new System.EventHandler(this.btn_agregarTime3_Click);
-            // 
-            // btn_agregarTime1
-            // 
-            this.btn_agregarTime1.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarTime1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime1.BackgroundImage")));
-            this.btn_agregarTime1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_agregarTime1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_agregarTime1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarTime1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarTime1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarTime1.Location = new System.Drawing.Point(89, 260);
-            this.btn_agregarTime1.Name = "btn_agregarTime1";
-            this.btn_agregarTime1.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarTime1.TabIndex = 26;
-            this.btn_agregarTime1.UseVisualStyleBackColor = false;
-            this.btn_agregarTime1.Visible = false;
-            this.btn_agregarTime1.Click += new System.EventHandler(this.btn_agregarTime1_Click);
-            // 
-            // btn_agregarTime2
-            // 
-            this.btn_agregarTime2.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarTime2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime2.BackgroundImage")));
-            this.btn_agregarTime2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_agregarTime2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_agregarTime2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarTime2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarTime2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarTime2.Location = new System.Drawing.Point(223, 260);
-            this.btn_agregarTime2.Name = "btn_agregarTime2";
-            this.btn_agregarTime2.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarTime2.TabIndex = 27;
-            this.btn_agregarTime2.UseVisualStyleBackColor = false;
-            this.btn_agregarTime2.Visible = false;
-            this.btn_agregarTime2.Click += new System.EventHandler(this.btn_agregarTime2_Click);
-            // 
-            // btn_agregarTime4
-            // 
-            this.btn_agregarTime4.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarTime4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarTime4.BackgroundImage")));
-            this.btn_agregarTime4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_agregarTime4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_agregarTime4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_agregarTime4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarTime4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarTime4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarTime4.Location = new System.Drawing.Point(223, 352);
-            this.btn_agregarTime4.Name = "btn_agregarTime4";
-            this.btn_agregarTime4.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarTime4.TabIndex = 28;
-            this.btn_agregarTime4.UseVisualStyleBackColor = false;
-            this.btn_agregarTime4.Visible = false;
-            this.btn_agregarTime4.Click += new System.EventHandler(this.btn_agregarTime4_Click);
-            // 
-            // btn_agregarArchivo
-            // 
-            this.btn_agregarArchivo.BackColor = System.Drawing.Color.Transparent;
-            this.btn_agregarArchivo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarArchivo.BackgroundImage")));
-            this.btn_agregarArchivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_agregarArchivo.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_agregarArchivo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_agregarArchivo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_agregarArchivo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_agregarArchivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_agregarArchivo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_agregarArchivo.Location = new System.Drawing.Point(731, 46);
-            this.btn_agregarArchivo.Name = "btn_agregarArchivo";
-            this.btn_agregarArchivo.Size = new System.Drawing.Size(40, 40);
-            this.btn_agregarArchivo.TabIndex = 29;
-            this.btn_agregarArchivo.UseVisualStyleBackColor = false;
-            this.btn_agregarArchivo.Click += new System.EventHandler(this.btn_agregarArchivo_Click);
-            // 
-            // btn_fijarMsj
-            // 
-            this.btn_fijarMsj.AutoSize = true;
-            this.btn_fijarMsj.BackColor = System.Drawing.Color.Transparent;
-            this.btn_fijarMsj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_fijarMsj.BackgroundImage")));
-            this.btn_fijarMsj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fijarMsj.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_fijarMsj.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btn_fijarMsj.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btn_fijarMsj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fijarMsj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_fijarMsj.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_fijarMsj.Location = new System.Drawing.Point(685, 313);
-            this.btn_fijarMsj.Name = "btn_fijarMsj";
-            this.btn_fijarMsj.Size = new System.Drawing.Size(40, 40);
-            this.btn_fijarMsj.TabIndex = 30;
-            this.btn_fijarMsj.UseVisualStyleBackColor = false;
+            this.btn_proyectar.Location = new System.Drawing.Point(417, 352);
+            this.btn_proyectar.Name = "btn_proyectar";
+            this.btn_proyectar.Size = new System.Drawing.Size(166, 53);
+            this.btn_proyectar.TabIndex = 31;
+            this.btn_proyectar.Text = "Proyectar";
+            this.btn_proyectar.UseVisualStyleBackColor = true;
+            this.btn_proyectar.Click += new System.EventHandler(this.btn_proyectar_Click);
             // 
             // f3NuevaConf
             // 
@@ -463,5 +477,6 @@
         private System.Windows.Forms.Button btn_agregarTime3;
         private System.Windows.Forms.Button btn_fijarMsj;
         private System.Windows.Forms.Button btn_agregarArchivo;
+        private System.Windows.Forms.Button btn_proyectar;
     }
 }

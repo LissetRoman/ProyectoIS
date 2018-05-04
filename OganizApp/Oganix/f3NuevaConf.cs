@@ -11,12 +11,16 @@ using System.Windows.Forms;
 //para excel
 using GemBox.Spreadsheet;
 using GemBox.Spreadsheet.WinFormsUtilities;
-
+using Oganix.Resources;
 
 namespace Oganix
 {
     public partial class f3NuevaConf : Form
     {
+        //variables globales
+        String archivoExcel = "";
+        String mensaje = "";
+
         public f3NuevaConf()
         {
             SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
@@ -163,7 +167,7 @@ namespace Oganix
 
         private void btn_agregarMsj_Click(object sender, EventArgs e)
         {
-            String mensaje = "";
+            
             textBox1.Enabled = true;
         }
 
@@ -175,11 +179,35 @@ namespace Oganix
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
+                //aquí se guarda el excel
+                archivoExcel = openFileDialog.FileName;
+
                 ExcelFile ef = ExcelFile.Load(openFileDialog.FileName);
 
                 // Export Excel worksheet to DataGridView control.
                 DataGridViewConverter.ExportToDataGridView(ef.Worksheets.ActiveWorksheet, this.dataGridView1, new ExportToDataGridViewOptions() { ColumnHeaders = true });
             }
+        }
+
+        private void btn_fijarMsj_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text.Equals("Escriba un anuncio"))
+            {
+                mensaje = "";
+            }
+            else
+            {
+                mensaje = textBox1.Text;
+                textBox1.Enabled = false;
+            }
+            
+        }
+
+        private void btn_proyectar_Click(object sender, EventArgs e)
+        {
+            //aquí se mandan todos los datos al form de la proyección
+            FrmProyeccion NuevaVentana = new FrmProyeccion(archivoExcel, mensaje);
+            NuevaVentana.Show();
         }
     }
 }
