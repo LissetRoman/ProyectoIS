@@ -74,3 +74,5 @@ C:\Users\LissetRoman\source\repos\ProyectoIS\OganizApp\Oganix\obj\Debug\OganizAp
 C:\Users\LissetRoman\source\repos\ProyectoIS\OganizApp\Oganix\obj\Debug\Oganix.exe
 C:\Users\LissetRoman\source\repos\ProyectoIS\OganizApp\Oganix\obj\Debug\Oganix.pdb
 C:\Users\LissetRoman\source\repos\ProyectoIS\OganizApp\Oganix\obj\Debug\Oganix.Resources.FrmProyeccion.resources
+C:\Users\LissetRoman\Source\Repos\ProyectoIS\OganizApp\Oganix\bin\Debug\MySql.Data.dll
+C:\Users\LissetRoman\Source\Repos\ProyectoIS\OganizApp\Oganix\bin\Debug\MySql.Data.xml

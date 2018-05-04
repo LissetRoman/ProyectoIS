@@ -13,6 +13,10 @@ using GemBox.Spreadsheet;
 using GemBox.Spreadsheet.WinFormsUtilities;
 using Oganix.Resources;
 
+//para la conexión a la bd
+using MySql.Data.MySqlClient;
+
+
 namespace Oganix
 {
     public partial class f3NuevaConf : Form
@@ -21,8 +25,13 @@ namespace Oganix
         String archivoExcel = "";
         String mensaje = "";
 
-        public f3NuevaConf()
+        String idResp = "";
+        String connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=organizapp1;";
+        
+
+        public f3NuevaConf(String responsable)
         {
+            idResp = responsable;
             SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
             InitializeComponent();
         }
@@ -208,6 +217,11 @@ namespace Oganix
             //aquí se mandan todos los datos al form de la proyección
             FrmProyeccion NuevaVentana = new FrmProyeccion(archivoExcel, mensaje);
             NuevaVentana.Show();
+        }
+
+        private void f3NuevaConf_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

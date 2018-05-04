@@ -32,6 +32,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.btnModif = new System.Windows.Forms.Button();
             this.btnNueva = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,7 +40,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,6 +87,23 @@
             this.panel2.Size = new System.Drawing.Size(312, 208);
             this.panel2.TabIndex = 1;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PowderBlue;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSalir.Location = new System.Drawing.Point(190, 173);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(119, 32);
+            this.btnSalir.TabIndex = 10;
+            this.btnSalir.Text = "Cerrar sesión";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // btnModif
             // 
             this.btnModif.BackColor = System.Drawing.Color.Transparent;
@@ -95,7 +112,7 @@
             this.btnModif.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnModif.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumAquamarine;
             this.btnModif.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModif.Font = new System.Drawing.Font("Roboto Cn", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModif.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModif.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnModif.Location = new System.Drawing.Point(250, 115);
             this.btnModif.Name = "btnModif";
@@ -108,10 +125,11 @@
             this.btnNueva.BackColor = System.Drawing.Color.Transparent;
             this.btnNueva.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnNueva.BackgroundImage")));
             this.btnNueva.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNueva.Enabled = false;
             this.btnNueva.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNueva.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumAquamarine;
             this.btnNueva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNueva.Font = new System.Drawing.Font("Roboto Cn", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNueva.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNueva.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnNueva.Location = new System.Drawing.Point(250, 70);
             this.btnNueva.Name = "btnNueva";
@@ -123,20 +141,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto Cn", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(36, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 25);
+            this.label3.Size = new System.Drawing.Size(235, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Modificar configuración";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto Cn", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(36, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(181, 25);
+            this.label2.Size = new System.Drawing.Size(209, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nueva configuración";
             // 
@@ -146,7 +164,7 @@
             this.label1.ForeColor = System.Drawing.Color.Goldenrod;
             this.label1.Location = new System.Drawing.Point(39, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(235, 33);
+            this.label1.Size = new System.Drawing.Size(290, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "OPCIONES DE MENÚ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -174,37 +192,21 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // btnSalir
+            // f2Menu
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnSalir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PowderBlue;
-            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Roboto Cn", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSalir.Location = new System.Drawing.Point(190, 173);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(119, 32);
-            this.btnSalir.TabIndex = 10;
-            this.btnSalir.Text = "Cerrar sesión";
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
-            // 
-            // Form2
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 33F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(724, 451);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Roboto Cn", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
-            this.Name = "Form2";
+            this.Name = "f2Menu";
             this.Text = "Menú";
+            this.Load += new System.EventHandler(this.f2Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

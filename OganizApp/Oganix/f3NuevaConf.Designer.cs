@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f3NuevaConf));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_proyectar = new System.Windows.Forms.Button();
             this.btn_fijarMsj = new System.Windows.Forms.Button();
             this.btn_agregarArchivo = new System.Windows.Forms.Button();
             this.btn_agregarTime4 = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.btn_fijarDatos = new System.Windows.Forms.Button();
             this.btn_agregarImg = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btn_proyectar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -95,6 +95,16 @@
             this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel1.Size = new System.Drawing.Size(803, 451);
             this.panel1.TabIndex = 5;
+            // 
+            // btn_proyectar
+            // 
+            this.btn_proyectar.Location = new System.Drawing.Point(417, 352);
+            this.btn_proyectar.Name = "btn_proyectar";
+            this.btn_proyectar.Size = new System.Drawing.Size(166, 53);
+            this.btn_proyectar.TabIndex = 31;
+            this.btn_proyectar.Text = "Proyectar";
+            this.btn_proyectar.UseVisualStyleBackColor = true;
+            this.btn_proyectar.Click += new System.EventHandler(this.btn_proyectar_Click);
             // 
             // btn_fijarMsj
             // 
@@ -420,16 +430,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // btn_proyectar
-            // 
-            this.btn_proyectar.Location = new System.Drawing.Point(417, 352);
-            this.btn_proyectar.Name = "btn_proyectar";
-            this.btn_proyectar.Size = new System.Drawing.Size(166, 53);
-            this.btn_proyectar.TabIndex = 31;
-            this.btn_proyectar.Text = "Proyectar";
-            this.btn_proyectar.UseVisualStyleBackColor = true;
-            this.btn_proyectar.Click += new System.EventHandler(this.btn_proyectar_Click);
-            // 
             // f3NuevaConf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -441,6 +441,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f3NuevaConf";
             this.Text = "Configuración";
+            this.Load += new System.EventHandler(this.f3NuevaConf_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
